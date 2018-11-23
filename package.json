@@ -1,0 +1,24 @@
+{
+  "name": "@mr/react-native-cookie",
+  "version": "0.0.1",
+  "description": "cookie",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.mr.com/ziming.x/react-native-cookie.git"
+  },
+  "keywords": [
+    "cookie",
+    "webview",
+    "react",
+    "react-native"
+  ],
+  "dependencies": {
+    "react-native": "0.53.3"
+  },
+  "author": "xzm",
+  "license": "MIT"
+}
