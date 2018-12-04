@@ -2,6 +2,7 @@ package com.psykar.cookiemanager;
 
 import android.content.Context;
 import android.os.Build;
+import android.util.Log;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 
@@ -55,13 +56,8 @@ public class CookieManagerModule extends ReactContextBaseJavaModule {
         }
         cookieManager.setAcceptCookie(true);
         String path = cookie.getString("domain");
-        cookieManager.setCookie(path,cookie.getString("name") + "=" + cookie.getString("value"));
+        cookieManager.setCookie(path,cookie.getString("name") +"="+cookie.getString("value"));
 
-        cookieManager.setCookie(path,"domain" + "=" + cookie.getString("domain"));
-        cookieManager.setCookie(path,"origin" + "=" + cookie.getString("origin"));
-        cookieManager.setCookie(path,"path" + "=" + cookie.getString("path"));
-        cookieManager.setCookie(path,"version" + "=" + cookie.getString("version"));
-        cookieManager.setCookie(path,"expiration" + "=" + cookie.getString("expiration"));
         if (Build.VERSION.SDK_INT <Build.VERSION_CODES.LOLLIPOP) {
              CookieSyncManager.getInstance().sync();
         }
