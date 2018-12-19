@@ -1,6 +1,6 @@
 {
   "name": "@mr/react-native-cookies",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "cookie",
   "main": "index",
   "scripts": {
@@ -16,9 +16,6 @@
     "react",
     "react-native"
   ],
-  "dependencies": {
-    "react-native": "0.53.3"
-  },
   "author": "xzm",
   "license": "MIT"
 }
