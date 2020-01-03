@@ -1,6 +1,6 @@
 {
-  "name": "@mr/react-native-cookies",
-  "version": "0.0.5",
+  "name": "@hchc/react-native-cookies",
+  "version": "0.0.2",
   "description": "cookie",
   "main": "index",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://git.mr.com/ziming.x/react-native-cookie.git"
+    "url": "https://github.com/593980284/RN-Cookie"
   },
   "keywords": [
     "cookie",
@@ -16,6 +16,6 @@
     "react",
     "react-native"
   ],
-  "author": "xzm",
+  "author": "huchao",
   "license": "MIT"
 }
